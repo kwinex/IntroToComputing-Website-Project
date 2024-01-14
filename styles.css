@@ -1,0 +1,245 @@
+body {
+    background-image: url(css/mp4/Shimmering\ chu.mp4);
+    font-family: 'Playfair Display', serif;
+    font-size: large;
+    color: #c49736;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back-video{
+        position: fixed;
+        right: 0;
+        bottom: 5;
+        z-index: -1;
+        width: 100%;
+    }
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: medium;
+}
+
+
+.z2{
+    float: left;
+}
+.ath{
+    float: right;
+}
+.ap2{
+    float: left;
+}
+.ar{
+    float: right;
+}
+.hs{
+    float: left;
+}
+.hr{
+    border-radius:20%;
+    float: left;
+}
+.jison{
+    border-radius:20%;
+    float:right;
+}
+.br{
+    border-radius: 20%;
+    float: left;
+}
+.cb{
+    border-radius: 20%;
+    float: right;
+}
+.ch{
+    border-radius: 15%;
+    float: left;
+}
+.md{
+    border-radius: 15%;
+    float: right;
+}
+.s{
+    margin-top: 5%;
+    float: left;
+}
+.mn{
+    float: right;
+}
+.lit{
+    margin-top: 15%;
+    float: left;
+    border-radius: 20%;
+}
+.nr{
+    margin-top: 10%;
+    float: right;
+    border-radius: 20%;
+}
+.arch{
+    margin-top: 10%;
+    float: left;
+    border-radius: 20%;
+}
+.percy{
+    margin-top: 10%;
+    margin-left: 17%;
+    float: right;
+    
+    border-radius: 20%;
+}
+
+.tt{
+    border-radius: 20%;
+    float: left;
+}
+.p2{
+    margin-top: 27%;
+    border-radius: 20%;
+    float: right;
+}
+.sculp{
+    float: right;
+    border-radius: 20%;
+}
+.clash{
+    float: left;
+    border-radius: 20%;
+}
+
+header {
+    background-color: #c7ab4f;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6f61;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+form {
+    text-align: left;
+}
+#contact {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+#contact .container {
+    text-align: center;
+}
+
+#contact h1 {
+    margin-bottom: 30px;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+#contact-form button {
+    background-color: #c7ab4f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact-form button:hover {
+    background-color: #ff6f61;
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-icons img {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+
+@media only screen and (max-width: 767px) {
+    header{ 
+        padding: 5px 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+    #intro{
+        font-size: large;
+
+    }
+}
